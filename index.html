@@ -20,6 +20,7 @@
 <body>
   <nav>
     <ul>
+      <li><a href="#" id="logo">Malty and the Rain</a></li>
       <li><a href="#landing-images">Photos</a></li>
       <li><a href="#about">Bio</a></li>
       <li><a href="#live">Live</a></li>
@@ -29,42 +30,30 @@
     </ul>
   </nav>
 
-  <section id="landing" class="page-width">
-    <div id="landing-text">
-      <div id="landing-container">
-
-        <h1 id="band-name" class="border-bottom">
-          Malty and the Rain
-        </h1>
-        <!-- <br/> -->
-        <h1>
-          Electronic Press Kit
-        </h1>
-      </div>
-    </div>
-  </section>
-
-  <div id="arrow">
-    <a href="#about">
-      <img src="assets/arrow_downward.svg" alt="Down Arrow">
-    </a>
+  <div id="landing-overlay">
+    <div id="landing-bg"></div>
   </div>
 
-  <section id="landing-images">
-    <h2>Photos</h2>
-    <div id="landing-images-container">
-      <div id="left-images">
-        <img src="assets/Levi.jpg" alt="Levi Performing" class="">
-        <img src="assets/Levi Motion.jpg" alt="Levi Singing" class="">
+  <section id="landing" class="page-width">
+      <div id="landing-text">
+        <div id="landing-container">
+          
+          <h1 id="band-name" class="border-bottom">
+            Malty and the Rain
+          </h1>
+          <!-- <br/> -->
+          <h1>
+            Electronic Press Kit
+          </h1>
+        </div>
       </div>
-      <div id="right-images">
-        <img src="assets/Madison Vocal.jpg" alt="Madison Singing" class="">
-        <img src="assets/STIN.jpg" alt="Band Side View" class="">
-        <img src="assets/Jonathan.jpg" alt="Jonathan Drumming" class="">
-
-      </div>
-    </div>
-  </section>
+    </section>
+    
+    <div id="arrow">
+      <a href="#about">
+        <img src="assets/arrow_downward.svg" alt="Down Arrow">
+      </a>
+  </div>
 
   <section id="about" class="page-width">
     <h3>About</h3>
@@ -93,18 +82,36 @@
       are active in the Seattle music scene and have performed at local venues like the Skylark Cafe and Tim’s Tavern.
     </p>
   </section>
+  
+  <section id="spotify">
+    <h2>Spotify Recordings</h2>
+    <!-- <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/3hpn3joTv68KBox7IekpZf?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
+
+    <!-- Dark Version -->
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/3hpn3joTv68KBox7IekpZf?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </section>
 
   <section id="live">
-    <h2>Live</h2>
+    <h2>Watch Us Live</h2>
     <iframe id="yt-iframe" src="https://www.youtube.com/embed/lP1szdqtNWM?si=Be6kkF-zb7HhLkIV"
       title="YouTube video player" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </section>
 
-  <section id="spotify">
-    <h2>Spotify</h2>
-    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/3hpn3joTv68KBox7IekpZf?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <section id="landing-images">
+    <h2>Photos</h2>
+    <div id="landing-images-container">
+      <div id="left-images">
+        <img src="assets/Levi.jpg" alt="Levi Performing" class="">
+        <img src="assets/Levi Motion.jpg" alt="Levi Singing" class="">
+      </div>
+      <div id="right-images">
+        <img src="assets/Madison Vocal.jpg" alt="Madison Singing" class="">
+        <img src="assets/STIN.jpg" alt="Band Side View" class="">
+        <img src="assets/Jonathan.jpg" alt="Jonathan Drumming" class="">
+      </div>
+    </div>
   </section>
 
   <section id="instagram">
@@ -117,14 +124,16 @@
 
   <section id="contact" class="page-width">
     <h2>Contact</h2>
-    <p>We seriously look forward to working with you!</p>
+    <p>
+      We seriously look forward to working with you!
+    </p>
     <p>Email:
       <a>
         maltyandtherain@gmail.com
       </a>
     </p>
   </section>
-
+  <br>
   <footer>
     <p>
       &copy; 2025 Malty and the Rain
